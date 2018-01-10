@@ -6,8 +6,8 @@ $user = 'root';
 $pass = '';
 $dbname = 'studio_legale';
 $mysqli = new mysqli($server, $user, $pass, $dbname);
-//$con = mysql_connect($server, $user, $pass) or die("Can't connect");
-//mysql_select_db($dbname);
+
+
 if ($mysqli->connect_error) {
     die('Connect Error (' . $mysqli->connect_errno . ') '
             . $mysqli->connect_error);
